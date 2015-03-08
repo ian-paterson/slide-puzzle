@@ -1,0 +1,308 @@
+body {
+	background-image: url(images/wood.png)
+}
+p {
+	margin: 0 0 0 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+h1 {
+	text-align: center;
+	margin-top: 20px;
+	font-family: helvetica;
+	font-weight: 100;
+	color: white;
+	font-size: 4.2em;
+	text-shadow: 2.3px -1px #000000;
+}
+
+#game {
+	margin-top: -10px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	height: 670px;
+	width: 884px;
+}
+
+#titlebar {
+	position: absolute;
+	background-color: #f18d50;
+	left: 0px;
+	top: 0px;
+	width: 884px;
+	height: 115px;
+}
+
+#topbar {
+	position: absolute;
+	background-color: black;
+	left: 0px;
+	top: 115px;
+	width: 884px;
+	height: 10px;
+}
+
+#leftbar {
+	position: absolute;
+	background-color: black;
+	left: 0px;
+	top: 125px;
+	width: 10px;
+	height: 520px;
+}
+
+#bottombar {
+	position: absolute;
+	background-color: black;
+	left: 0px;
+	top: 645px;
+	width: 884px;
+	height: 10px;
+}
+
+
+#puzzle {
+	position: relative;
+	left: 10px;
+	top: 125px;
+	height: 520px;
+	width: 724px;
+	background-color: white;
+}
+
+#difficulty-prompt {
+	position: absolute;
+	background-color: #FFFFFF;
+	border: 3px solid #000000;
+	width: 400px;
+	height: 120px;
+	top: 160px;
+	left: 159px;
+	border-radius: 5px;
+}
+
+#prompt-text {
+	margin-top: 15px;
+	text-align: center;
+	font-size: 1.1em;
+	font-family: helvetica;
+	font-weight: 100;
+	color: #000000;
+}
+
+.prompt-button {
+	margin-left: 21px;
+	margin-top: 15px;
+	display: inline-block;
+	width: 100px;
+	height: 50px;
+	border-radius: 5px;
+	cursor: pointer;
+	border: 1px solid #000000;
+	background-color: #f0f0f0;
+}
+
+.prompt-button-text {
+	padding-top: 16px;
+	text-align: center;
+	font-size: 1.1em;
+	font-family: helvetica;
+	font-weight: 100;
+	color: #000000;
+}
+
+.piece {
+	position: absolute;
+	background-image: url(images/manhattan.jpg);
+	background-repeat: no-repeat;
+	width: 181px;
+	height: 130px;
+}
+
+
+#p1 {
+	left: 0px;
+	top: 0px;
+	background-position: 0px 0px;
+}
+
+#p2 {
+	left: 181px;
+	top: 0px;
+	background-position: -181px 0px;
+}
+
+#p3 {
+	left: 362px;
+	top: 0px;
+	background-position: -362px 0px;
+}
+
+#p4 {
+	left: 543px;
+	top: 0px;
+	background-position: -543px 0px;
+}
+
+#p5 {
+	left: 0px;
+	top: 130px;
+	background-position: 0px -130px;
+}
+
+#p6 {
+	left: 181px;
+	top: 130px;
+	background-position: -181px -130px;
+}
+
+#p7 {
+	left: 362px;
+	top: 130px;
+	background-position: -362px -130px;
+}
+
+#p8 {
+	left: 543px;
+	top: 130px;
+	background-position: -543px -130px;
+}
+
+#p9 {
+	left: 0px;
+	top: 260px;
+	background-position: -0px -260px;
+}
+
+#empty {
+	left: 181px;
+	top: 260px;
+	position: absolute;
+	width: 181px;
+	height: 130px;
+}
+
+#p10 {
+	left: 181px;
+	top: 260px;
+	background-position: -181px -260px;
+}
+
+#p11 {
+	left: 362px;
+	top: 260px;
+	background-position: -362px -260px;
+}
+
+#p12 {
+	left: 543px;
+	top: 260px;
+	background-position: -543px -260px;
+}
+
+#p13 {
+	left: 0px;
+	top: 390px;
+	background-position: -0px -390px;
+}
+
+#p14 {
+	left: 181px;
+	top: 390px;
+	background-position: -181px -390px;
+}
+
+#p15 {
+	left: 362px;
+	top: 390px;
+	background-position: -362px -390px;
+}
+
+#p16 {
+	left: 543px;
+	top: 390px;
+	background-position: -543px -390px;
+}
+
+#sidebar {
+	position: absolute;
+	background-color: black;
+	left: 734px;
+	top: 125px;
+	width: 150px;
+	height: 520px;
+}
+
+#button, #button2, #button3 {
+	margin: auto;
+	background-color: #f0f0f0;
+	width: 100px;
+	height: 70px;
+	border-radius: 5px;
+}
+
+#button, #button2 {
+	cursor: pointer;
+}
+
+#button3 {
+	cursor: default;
+}
+
+#button, #button3 {
+	margin-top: 150px;
+}
+
+#button2{
+	margin-top: 50px;
+}
+
+#button:hover,.prompt-button:hover {
+	background-color: red;
+}
+
+#button2:hover{
+	background-color: green;
+}
+
+.button-text {
+	padding-top: 25px;
+	text-align: center;
+	font-size: 1.1em;
+	font-family: helvetica;
+	font-weight: 100;
+	color: #000000;
+}
+
+#button-disabled-text {
+	padding-top: 25px;
+	text-align: center;
+	font-size: 1.1em;
+	font-family: helvetica;
+	font-weight: 100;
+	color: #b3b4b4;
+}
+
+#win-image {
+	position: absolute;
+	background-image: url(images/manhattan.jpg);
+	background-repeat: no-repeat;
+	width: 724px;
+	height: 520px;
+}
+
+#win-text {
+	text-align: center;
+	margin: 70px 0 -98px 0;
+	font-size: 1.5em;
+	font-family: helvetica;
+	font-weight: 100;
+	color: red;
+}
+
+
+
