@@ -1,5 +1,5 @@
 body {
-	background-image: url(images/wood.png)
+	background-image: url(../images/wood.png)
 }
 p {
 	margin: 0 0 0 0;
@@ -117,7 +117,7 @@ h1 {
 
 .piece {
 	position: absolute;
-	background-image: url(images/manhattan.jpg);
+	background-image: url(../images/manhattan.jpg);
 	background-repeat: no-repeat;
 	width: 181px;
 	height: 130px;
