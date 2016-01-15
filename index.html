@@ -3,7 +3,7 @@
 		<meta charset="utf-8">
 		<title>slide puzzle</title>
 		<link rel="shortcut icon" href="puzzle.ico"/>
-		<link rel="stylesheet" href="/css/styles.css">
+		<link rel="stylesheet" href="./css/styles.css">
 	</head>
 	<body>
 		<div id="game">
@@ -12,19 +12,57 @@
 			</div>
 			<div id="topbar"></div>
 			<div id="leftbar"></div>
-			<div id="puzzle"></div>
+			<div id="puzzle">
+				<div id="start0"></div>
+        <div id="start1"></div>
+        <div id="start2"></div>
+        <div id="start3"></div>
+        <div id="start4"></div>
+        <div class="piece" id="p1"></div>
+        <div class="piece" id="p2"></div>
+        <div class="piece" id="p3"></div>
+        <div class="piece" id="p4"></div>
+        <div id="row2"></div>
+        <div class="piece" id="p5"></div>
+        <div class="piece" id="p6"></div>
+        <div class="piece" id="p7"></div>
+        <div class="piece" id="p8"></div>
+        <div id="row3"></div>
+        <div class="piece" id="p9"></div>
+        <div class="piece" id="p10"></div>
+        <div class="piece" id="p11"></div>
+        <div class="piece" id="p12"></div>
+        <div id="row4"></div>
+        <div class="piece" id="p13"></div>
+        <div class="piece" id="p14"></div>
+        <div class="piece" id="p15"></div>
+        <div class="piece" id="p16"></div>
+        <div id="end0"></div>
+        <div id="end1"></div>
+        <div id="end2"></div>
+        <div id="end3"></div>
+        <div id="end4"></div>
+        <div id="difficulty-prompt">
+          <p id="prompt-text">Choose a Difficulty Level:</p>
+          <div class="prompt-button" id="easy">
+            <p class="prompt-button-text">EASY</p>
+          </div>
+          <div class="prompt-button" id="medium">
+            <p class="prompt-button-text">MEDIUM</p>
+          </div>
+          <div class="prompt-button" id="hard">
+            <p class="prompt-button-text">HARD</p>
+          </div>
+        </div>
+      </div>
 			<div id="sidebar">
-				<div id="button">
-					<p class="button-text">PLAY</p>
-				</div>
-				<div id="button2">
-					<a href="puzzle.html"><p class="button-text">RESET</p></a>
-				</div>
+        <button id="play-button">PLAY</button>
+        <a href="index.html" id="reset-button">RESET</a>
 			</div>
 			<div id="bottombar"></div>
 		</div>
 		<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
 		<script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
-		<script	src="/js/script.js"></script>
+		<script	src="./js/script.js"></script>
 	</body>
 </html>
