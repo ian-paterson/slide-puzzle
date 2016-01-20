@@ -179,12 +179,13 @@ h1 {
 	background-position: -0px -260px;
 }
 
-#empty {
+.empty {
 	left: 181px;
 	top: 260px;
 	position: absolute;
 	width: 181px;
 	height: 130px;
+	background: none;
 }
 
 #p10 {
